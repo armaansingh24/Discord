@@ -1,0 +1,119 @@
+@media (min-width: 640px) {
+  .lastH {
+    height: 44rem;
+  }
+}
+@media (max-width: 640px) {
+  .lastH img {
+    display: none;
+  }
+}
+
+@media (min-width: 682px) {
+  .br-hero {
+    display: none;
+  }
+  .mid-large {
+    font-size: 2.5rem;
+  }
+  .button-hero {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 682px) {
+  .lastH {
+    height: 50rem;
+  }
+  .br-hero {
+    display: none;
+  }
+  .paraMargin {
+    width: 52rem;
+    margin-left: -1rem;
+  }
+
+  .mid-large {
+    font-size: 2.5rem;
+  }
+  .button-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .lastH {
+    height: 70rem;
+  }
+  .paraMargin {
+    width: 52rem;
+    margin-left: -1rem;
+  }
+  .br-hero {
+    display: block;
+  }
+  .mid-large {
+    font-size: 56px;
+  }
+  .button-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lCenter {
+    margin-left: 20%;
+  }
+
+  .button-hero {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .paraMargin {
+    width: 60%;
+    margin-left: 2px;
+    font-size: larger;
+  }
+}
+
+@media (min-width: 1140px) {
+  .br-hero {
+    display: none;
+  }
+
+  .mid-large {
+    margin-bottom: -1rem;
+  }
+  .lCenter {
+    margin-left: 0;
+  }
+  .button-hero {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  .heroCloude {
+    /* top: 13rem; */
+    display: none;
+  }
+}
+
+.heroCloude {
+  transform: scaleX(2.01) scaleY(2.04);
+  /* top: -9rem; */
+}
+
+.heroButton:hover .svgChange path {
+  fill: #404eed;
+}
